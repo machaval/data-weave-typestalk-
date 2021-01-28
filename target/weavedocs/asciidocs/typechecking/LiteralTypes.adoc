@@ -1,0 +1,63 @@
+
+
+__________________________________________
+
+# Index
+
+=== Functions
+[%header, cols="1,3"]
+|===
+| Name | Description
+| link:#httpcodes-index [httpCodes] | 
+|===
+
+=== Variables
+[%header, cols="1,3"]
+|===
+| Name | Description
+| link:#http_internal_error-index [HTTP_INTERNAL_ERROR] | 
+| link:#http_not_found-index [HTTP_NOT_FOUND] | 
+| link:#http_ok-index [HTTP_OK] | 
+|===
+
+
+
+
+
+
+
+__________________________________________
+
+
+= Functions
+
+== **httpCodes** link:#index [↑↑]
+
+=== _httpCodes(200 | 404 | 500)_
+
+
+__________________________________________
+
+
+
+
+= Variables
+
+== **HTTP_INTERNAL_ERROR** link:#index [↑↑]
+
+
+
+
+== **HTTP_NOT_FOUND** link:#index [↑↑]
+
+
+
+
+== **HTTP_OK** link:#index [↑↑]
+
+
+
+
+
+
+

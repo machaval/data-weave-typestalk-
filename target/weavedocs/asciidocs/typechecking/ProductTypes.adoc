@@ -1,0 +1,70 @@
+
+
+__________________________________________
+
+# Index
+
+
+=== Variables
+[%header, cols="1,3"]
+|===
+| Name | Description
+| link:#friends-index [friends: Array<String>] | 
+| link:#myuser-index [myUser: MyUser] | 
+| link:#otheruser-index [otherUser: MyUser] | 
+|===
+
+
+=== Types
+[%header, cols="1,3"]
+|===
+| Name | Description
+|link:#myuser-index [MyUser] | 
+|===
+
+
+
+
+
+
+__________________________________________
+
+
+
+
+
+= Variables
+
+== **friends: Array<String>** link:#index [↑↑]
+
+
+
+
+== **myUser: MyUser** link:#index [↑↑]
+
+
+
+
+== **otherUser: MyUser** link:#index [↑↑]
+
+
+
+
+
+__________________________________________
+
+= Types
+
+=== **MyUser** link:#index [↑↑]
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ name: String, lastName: String, age: Number, gender: "Male" | "Female", friends?: Array<String>, phone*?: String }
+----
+
+
+
+

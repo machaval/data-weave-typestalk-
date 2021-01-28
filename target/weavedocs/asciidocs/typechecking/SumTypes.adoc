@@ -1,0 +1,104 @@
+
+
+__________________________________________
+
+# Index
+
+
+
+
+=== Types
+[%header, cols="1,3"]
+|===
+| Name | Description
+|link:#error-index [Error] | 
+|link:#httpmethods-index [HttpMethods] | 
+|link:#response-index [Response] | 
+|link:#user-index [User] | 
+|link:#withname-index [WithName] | 
+|link:#withphone-index [WithPhone] | 
+|===
+
+
+
+
+
+
+__________________________________________
+
+
+
+
+
+__________________________________________
+
+= Types
+
+=== **Error** link:#index [↑↑]
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+String
+----
+
+
+=== **HttpMethods** link:#index [↑↑]
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+"POST" | "GET" | "PUT" | "HEAD" | "PATCH" | "UPDATE"
+----
+
+
+=== **Response** link:#index [↑↑]
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+String | { value: Array<String> }
+----
+
+
+=== **User** link:#index [↑↑]
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ lastName: String } & WithName & WithPhone
+----
+
+
+=== **WithName** link:#index [↑↑]
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ name: String }
+----
+
+
+=== **WithPhone** link:#index [↑↑]
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ phone: String, cellPhone: String }
+----
+
+
+
+

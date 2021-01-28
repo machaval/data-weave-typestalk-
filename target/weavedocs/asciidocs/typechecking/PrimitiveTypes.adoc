@@ -1,0 +1,89 @@
+
+
+__________________________________________
+
+# Index
+
+=== Functions
+[%header, cols="1,3"]
+|===
+| Name | Description
+| link:#newid-index [newId] | 
+| link:#typeofid-index [typeOfId] | 
+| link:#typeofidwithmatch-index [typeOfIdWithMatch] | 
+|===
+
+=== Variables
+[%header, cols="1,3"]
+|===
+| Name | Description
+| link:#id-index [id] | 
+|===
+
+
+
+
+
+
+
+__________________________________________
+
+
+= Functions
+
+== **newId** link:#index [↑↑]
+
+=== _newId(Number)_
+
+
+__________________________________________
+
+=== _newId(String)_
+
+
+__________________________________________
+
+=== _newId(Boolean)_
+
+
+__________________________________________
+
+
+== **typeOfId** link:#index [↑↑]
+
+=== _typeOfId(Number)_
+
+
+__________________________________________
+
+=== _typeOfId(String)_
+
+
+__________________________________________
+
+=== _typeOfId(Boolean)_
+
+
+__________________________________________
+
+
+== **typeOfIdWithMatch** link:#index [↑↑]
+
+=== _typeOfIdWithMatch(id)_
+
+
+__________________________________________
+
+
+
+
+= Variables
+
+== **id** link:#index [↑↑]
+
+
+
+
+
+
+
