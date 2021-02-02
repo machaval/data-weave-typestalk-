@@ -1,4 +1,5 @@
 %dw 2.0
+@StreamCapable()
 input payload application/json
 ---
-payload
+payload filter ((item, index) -> )

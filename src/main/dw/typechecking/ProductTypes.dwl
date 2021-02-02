@@ -6,7 +6,15 @@ import * from dw::Runtime
 // ? on a field means optional
 // * on field means it can be repeated
 // {} means open object additional properties
-type MyUser = {name: String, lastName: String, age: Number, gender: "Male" | "Female", friends?: Array<String>, phone*?: String}
+
+type MyUser = {
+      name: String,
+      lastName: String,
+      age: Number,
+      gender: String,
+      friends?: Array<String>,
+      phone*?: String
+}
 
 var myUser: MyUser = {
     name: "Mariano",
@@ -16,6 +24,7 @@ var myUser: MyUser = {
     address: "Avenida Simpre viva"
 }
 
+//An Array is a Collection of elements and the kind of the items can be specified with the type parameter
 var friends: Array<String> = ["1","2"]
 
 var otherUser: MyUser = {

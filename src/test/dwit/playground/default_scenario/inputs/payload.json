@@ -1,0 +1,128 @@
+[
+  {
+    "name": "org.mule.weave.v2.debugger.commands.DebuggerCommand"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.commands.EvaluateScriptCommand"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.FieldDebuggerValue"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.event.StepOutDebuggerEvent"
+  },
+  {
+    "name": "[Lorg.mule.weave.v2.debugger.DebuggerFrame;"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.event.BreakpointsAddedEvent"
+  },
+  {
+    "name": "[Lorg.mule.weave.v2.debugger.FieldDebuggerValue;"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.KeyDebuggerValue"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.DebuggerLocation"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.ArrayDebuggerValue"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.event.ResumeDebuggerEvent"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.event.StepIntoDebuggerEvent"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.event.ExceptionBreakpointsAddedEvent"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.commands.InitializeSessionCommand"
+  },
+  {
+    "name": "java.lang.String"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.commands.ClearBreakpointsCommand"
+  },
+  {
+    "name": "[Lorg.mule.weave.v2.debugger.WeaveBreakpoint;"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.event.BreakpointsCleanedEvent"
+  },
+  {
+    "name": "scala.Some"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.commands.AddExceptionBreakpointsCommand"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.DebuggerPosition"
+  },
+  {
+    "name": "[Lorg.mule.weave.v2.debugger.DebuggerValue;"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.commands.AddBreakpointsCommand"
+  },
+  {
+    "name": "[Lscala.Tuple2;"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.event.OnFrameEvent"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.WeaveBreakpoint"
+  },
+  {
+    "name": "[Lorg.mule.weave.v2.debugger.AttributeDebuggerValue;"
+  },
+  {
+    "name": "scala.Option"
+  },
+  {
+    "name": "scala.Tuple2"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.DebuggerFrame"
+  },
+  {
+    "name": "[Ljava.lang.String;"
+  },
+  {
+    "name": "[Lorg.mule.weave.v2.debugger.WeaveExceptionBreakpoint;"
+  },
+  {
+    "name": "scala.None$"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.SimpleDebuggerValue"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.DebuggerFunction"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.commands.NextStepDebuggerCommand"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.commands.StepIntoDebuggerCommand"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.commands.ResumeDebuggerCommand"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.commands.StepOutDebuggerCommand"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.ObjectDebuggerValue"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.event.NextStepDebuggerEvent"
+  },
+  {
+    "name": "org.mule.weave.v2.debugger.event.ClientInitializedEvent"
+  }
+]

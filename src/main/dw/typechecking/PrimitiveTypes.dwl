@@ -20,6 +20,8 @@ fun typeOfId(id: String) = "the id $(id) is a string"
 
 fun typeOfId(id: Boolean) = "the id $(id) is a boolean"
 
+fun typeOfId(id: Null) = "The type is NULL"
+
 
 
 //It can also return different kind of types

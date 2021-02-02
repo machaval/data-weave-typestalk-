@@ -5,6 +5,7 @@
 //Union Types
 // Is a way to specify a set of possible types
 // String | Number
+//It will accept any value that is being accepted by any of its members
 
 type Error = String
 
@@ -15,6 +16,7 @@ type HttpMethods = "POST" | "GET" | "PUT" | "HEAD" | "PATCH" | "UPDATE"
 
 //Intersection types
 // Is the way to compose types
+//It will accept types that are being accepted by the all its members
 type WithName = {name: String}
 
 type WithPhone = {phone: String, cellPhone: String}

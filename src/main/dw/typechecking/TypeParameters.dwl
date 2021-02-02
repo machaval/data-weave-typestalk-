@@ -1,6 +1,4 @@
 %dw 2.0
-
-
 import * from dw::Runtime
 
 // Allows to create a template from a type
@@ -11,13 +9,12 @@ type Response<T> = {
   message?: String
 }
 
-
 var myResponse: Response<{name: String}> = {
   failure: false,
   value: {name: "Mariano"}
 }
 
-//  Matching with type parameters
+// Matching with type parameters
 // https://stackoverflow.com/questions/64222662/how-to-test-try-result-in-orelsetry-function-call
 
 //Type parameters can have bounds
