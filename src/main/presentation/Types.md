@@ -30,4 +30,4 @@ Set of rules that assigns a property called a `type` to the various constructs o
 
 # Let's play with types
 
-![Time To Play](https://raw.githubusercontent.com/machaval/data-weave-typestalk-/master/images/playTime.png)
+![Time To Play](https://raw.githubusercontent.com/machaval/data-weave-typestalk-/master/images/playTime.jpg)
