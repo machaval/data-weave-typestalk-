@@ -17,7 +17,7 @@ Set of rules that assigns a property called a `type` to the various constructs o
 
 - **Primitive Types**: String, Number, Date, Regex, Boolean ...
 - **Literal Types**: "Hello" , 123, true  
-- **Product Types**: Object (Open or Close) or Array
+- **Product Types**: Object (Open or Close), Array or Function Types
 - **SUM Types**: Union or Intersection
 - **Type Parameters**: Customize types
 

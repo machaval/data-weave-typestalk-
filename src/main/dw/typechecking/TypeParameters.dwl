@@ -14,8 +14,10 @@ var myResponse: Response<{name: String}> = {
   value: {name: "Mariano"}
 }
 
-// Matching with type parameters
+
+//
 // https://stackoverflow.com/questions/64222662/how-to-test-try-result-in-orelsetry-function-call
+// Matching with type parameters Using literal types
 
 //Type parameters can have bounds
 type Error<Kind <: String> = {success:false, error: {kind: Kind}}

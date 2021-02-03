@@ -36,6 +36,10 @@ var otherUser: MyUser = {
     friends: friends
 }
 
+//Function Types
+
+
+
 ---
 try(() -> if(random() > 0.5) fail("Fail") else "OK")  match {
 		case is {success: false} ->  "Failure"
