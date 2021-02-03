@@ -2,6 +2,7 @@
 
 import * from dw::Runtime
 
+input payload application/json
 //Close Object {||} Means no additional properties are allowed
 // ? on a field means optional
 // * on field means it can be repeated
@@ -38,9 +39,18 @@ var otherUser: MyUser = {
 
 //Function Types
 
+type FilterFunction<T> = (T) -> Boolean
 
+fun filterCollection<CollectionType>(array: Array<CollectionType>, filter: FilterFunction<CollectionType>) =
+    array match {
+      case [x ~ xs] -> if(filter(x)) [x ~ filterCollection(xs, filter)] else filterCollection(xs, filter)
+      case [] -> []
+    }
 
+var StringSizeFilter: FilterFunction<String> = (s: String): Boolean -> sizeOf(s) > 3
 ---
+//filterCollection(["123", "456", "789"], StringSizeFilter)
+
 try(() -> if(random() > 0.5) fail("Fail") else "OK")  match {
 		case is {success: false} ->  "Failure"
 		else ->  "OK"
