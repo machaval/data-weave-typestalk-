@@ -1,0 +1,26 @@
+[
+  {
+    "age": 75,
+    "name": "Peter",
+    "id": "532b8e74-0693-4583-ab1d-7ce96a7ec477",
+    "active": true
+  },
+  {
+    "age": 47,
+    "name": "Foo",
+    "id": "1a52fbfe-c772-4fd1-910f-65258d90264e",
+    "active": false
+  },
+  {
+    "age": 18,
+    "name": "Test",
+    "id": "427161ca-0257-4b7b-afff-1ca6bc74578d",
+    "active": true
+  },
+  {
+    "age": 16,
+    "name": "Test",
+    "id": "427161ca-0257-4b7b-afff-1ca6bc74578d",
+    "active": false
+  }
+]
